@@ -1,0 +1,18 @@
+# Crop Insurance Protocol Contract Address
+# Replace this with the actual deployed contract address
+
+Contract Address: ST1TVDG8AZSBZXSZRXXCVM1NHDG37QJKDEEVXHTNW.crop-insurance-protocol
+Network: testnet
+Deployer: ST1TVDG8AZSBZXSZRXXCVM1NHDG37QJKDEEVXHTNW
+Deployment Date: 2025-08-23
+Status: Deployed and Active
+
+# Network: Stacks Mainnet
+# Deploy Date: [To be filled after deployment]
+# Deployer: [To be filled after deployment]
+
+# Instructions:
+# 1. Deploy the contract using Clarinet
+# 2. Update this file with the actual contract address
+# 3. Update the frontend environment variables
+# 4. Update the weather service configuration

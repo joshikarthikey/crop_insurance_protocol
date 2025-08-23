@@ -1,0 +1,17 @@
+[project]
+name = "crop-insurance-protocol"
+description = "Parametric crop insurance using weather data"
+authors = ["karthikey"]
+license = "MIT"
+clarinet_version = "1.0.0"
+
+[contracts.crop-insurance-protocol]
+path = "contracts/contract.clar"
+
+[networks.testnet]
+name = "testnet"
+deployment_dir = "deployments/testnet"
+
+[networks.mainnet]
+name = "testnet"
+deployment_dir = "deployments/testnet"

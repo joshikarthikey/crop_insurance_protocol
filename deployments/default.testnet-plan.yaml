@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: crop-insurance-protocol
+            expected-sender: ST1TVDG8AZSBZXSZRXXCVM1NHDG37QJKDEEVXHTNW
+            cost: 27880
+            path: contracts/contract.clar
+            anchor-block-only: true
+            clarity-version: 1
+      epoch: "2.05"
