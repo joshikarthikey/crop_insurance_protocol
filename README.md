@@ -102,7 +102,7 @@ cd crop_insurance_protocol
 
 #### Backend (Weather Service)
 ```bash
-cd backend
+cd weather-service
 npm install
 ```
 
