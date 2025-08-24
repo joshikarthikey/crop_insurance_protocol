@@ -315,7 +315,8 @@ Claims are **automatically processed** based on weather conditions:
 ## 🔧 Smart Contract Details
 
 #### Contract Identifier: ST1TVDG8AZSBZXSZRXXCVM1NHDG37QJKDEEVXHTNW.crop-insurance-protocol-v2
-#### Contract Screenshot: 
+#### Contract Screenshot: ![Uploading image.png…]()
+
 
 ### Contract Structure
 
