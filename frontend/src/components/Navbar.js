@@ -8,13 +8,14 @@ import {
   DocumentTextIcon, 
   ExclamationTriangleIcon,
   InformationCircleIcon,
-  CheckCircleIcon
+  CheckCircleIcon,
+  MapIcon
 } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
   const { user, isAuthenticated, login, logout } = useAuth();
   const location = useLocation();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [walletMode, setWalletMode] = useState('FALLBACK MODE');
   const [isStacksCompatible, setIsStacksCompatible] = useState(false);
 
@@ -78,6 +79,7 @@ const Navbar = () => {
     { name: 'Dashboard', href: '/dashboard', icon: InformationCircleIcon },
     { name: 'Insurance Pools', href: '/pools', icon: ShieldCheckIcon },
     { name: 'Claims', href: '/claims', icon: DocumentTextIcon },
+    { name: 'Weather Map', href: '/weather', icon: MapIcon },
   ];
 
   const handleLogin = async () => {
