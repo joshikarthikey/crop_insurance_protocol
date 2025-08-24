@@ -9,9 +9,9 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: crop-insurance-protocol
+            contract-name: crop-insurance-protocol-v2
             expected-sender: ST1TVDG8AZSBZXSZRXXCVM1NHDG37QJKDEEVXHTNW
-            cost: 27880
+            cost: 40940
             path: contracts/contract.clar
             anchor-block-only: true
             clarity-version: 1
